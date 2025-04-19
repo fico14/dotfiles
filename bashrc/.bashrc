@@ -122,8 +122,10 @@ fi
 #source <(ng completion script)
 #. "$HOME/.cargo/env"
 
-export PATH="/home/fico/.local/bin":$PATH
-export PATH="/home/fico/.mybin":$PATH
+export PATH="/home/$USER/.local/bin":$PATH
+export PATH="/home/$USER/.mybin":$PATH
+export PATH="/home/$USER/.mybin/nvim-linux-x86_64/bin/":$PATH
+
 export EDITOR="$(which vim)"
 export VISUAL="$(which vim)"
 
