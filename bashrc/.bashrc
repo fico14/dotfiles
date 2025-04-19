@@ -127,12 +127,6 @@ export PATH="/home/fico/.mybin":$PATH
 export EDITOR="$(which vim)"
 export VISUAL="$(which vim)"
 
-#export PATH="/opt/st/stm32cubeide_1.10.1/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.linux64_1.0.0.202111181127/tools/bin":$PATH
-source /home/fico/repo/alacritty/extra/completions/alacritty.bash
-
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
-
-#pythonpath for gnuradio
-export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python3.10/dist-packages
 
 export STM32_PRG_PATH=/home/fico/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin
