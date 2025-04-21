@@ -48,9 +48,8 @@ cmp.setup({
   mapping = cmp.mapping.preset.insert({
     -- Enter key confirms completion item
     ['<CR>'] = cmp.mapping.confirm({select = false}),
-
-    -- Ctrl + space triggers completion menu
-    ['<C-Space>'] = cmp.mapping.complete(),
+    ['<S-Tab>'] = cmp.mapping.select_prev_item(cmp_select),
+    ['<Tab>'] = cmp.mapping.select_next_item(cmp_select),
   }),
   snippet = {
     expand = function(args)
