@@ -125,6 +125,7 @@ fi
 export PATH="/home/$USER/.local/bin":$PATH
 export PATH="/home/$USER/.mybin":$PATH
 export PATH="/home/$USER/.mybin/nvim-linux-x86_64/bin/":$PATH
+export PATH=$PATH:/usr/local/go/bin
 
 export EDITOR="$(which vim)"
 export VISUAL="$(which vim)"
