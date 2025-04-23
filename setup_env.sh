@@ -6,6 +6,8 @@ stow bashrc
 stow tmux
 stow git
 
+#neovim plugins
+
 CLONE_DIR="$HOME/.local/share/nvim/site/pack/packer/"
 #CLONE_DIR="$HOME/fico/tmp"  #dir for testing purposes
 TMP_DIR="$HOME/start"
@@ -78,4 +80,7 @@ cd $HOME
 pwd
 mv $TMP_DIR $CLONE_DIR
 
+# .mybin and projects folder
+mkdir /$HOME/.mybin
+mkdir /$HOME/projects
 
