@@ -5,6 +5,7 @@ stow alacritty
 stow bashrc
 stow tmux
 stow git
+stow vimrc
 
 #neovim plugins
 
