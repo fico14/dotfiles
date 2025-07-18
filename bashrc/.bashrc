@@ -92,8 +92,8 @@ alias ll='ls -al'
 alias la='ls -A'
 alias l='ls -CF'
 alias tmux='tmux -2'
-alias fzf='fzf --preview="bat --color=always {}"'
-alias fz='nvim $(fzf --preview="bat --color=always {}")'
+alias fzf='fzf --preview="batcat --color=always {}"'
+alias fz='nvim $(fzf --preview="batcat --color=always {}")'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -135,3 +135,7 @@ export VISUAL="$(which vim)"
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
 export STM32_PRG_PATH=/home/fico/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

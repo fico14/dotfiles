@@ -15,7 +15,7 @@ vim.opt.colorcolumn = "80"
 vim.g.mapleader = " "
 
 vim.g.netrw_liststyle = 3
-vim.g.netrw_windowsize = 30
+vim.g.netrw_windowsize=30
 
 vim.opt.modeline = false
 
