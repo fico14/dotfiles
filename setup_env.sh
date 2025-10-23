@@ -74,6 +74,9 @@ git clone --depth=1 https://github.com/terrortylor/nvim-comment.git
 git clone --depth=1 https://github.com/navarasu/onedark.nvim.git
 #onedark.nvim/
 
+git clone --depth=1 https://github.com/ibhagwan/fzf-lua.git
+#fzf-lua.nvim
+#
 ###############################################################################
 ###############################################################################
 
