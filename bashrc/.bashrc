@@ -94,6 +94,7 @@ alias l='ls -CF'
 alias tmux='tmux -2'
 alias fzf='fzf --preview="batcat --color=always {}"'
 alias fz='nvim $(fzf --preview="batcat --color=always {}")'
+alias fzl='less $(fzf --preview="batcat --color=always {}")'
 alias get_idf='. $HOME/esp/esp-idf/export.sh'
 
 # Add an "alert" alias for long running commands.  Use like so:
