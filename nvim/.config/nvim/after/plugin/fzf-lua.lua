@@ -1,3 +1,10 @@
+require("fzf-lua").setup {
+	winopts = {
+		height           = 0.95,            -- window height
+		width            = 0.95,
+	}
+}
+
 local builtin = require('fzf-lua')
 
 vim.keymap.set('n', '<leader>pf', builtin.files, {})
