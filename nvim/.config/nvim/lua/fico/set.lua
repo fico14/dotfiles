@@ -11,6 +11,7 @@ vim.opt.scrolloff = 30
 
 vim.opt.updatetime = 50
 vim.opt.colorcolumn = "80"
+vim.opt.wildignore="*.o,*.obj,~*"
 
 vim.g.mapleader = " "
 
