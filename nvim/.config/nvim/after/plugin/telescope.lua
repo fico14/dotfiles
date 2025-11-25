@@ -1,5 +1,6 @@
 --require('telescope').setup {
 --        defaults = {
+--                file_ignore_patterns = {"%.a", "%.o", "%.obj", "%.dwo", "%.dtb"}
 --                layout_strategy = "horizontal",
 --                layout_config = {
 --                        horizontal = {
